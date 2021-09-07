@@ -1,0 +1,223 @@
+﻿.footer {
+    background: #071b4d;
+    color: #fff;
+    display: block;
+}
+
+.footer_nav {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.footer_nav_list {
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_nav_ul_li {
+    display: inline-block;
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: nowrap;
+    margin-right: 2rem;
+    padding: 0;
+}
+
+.footer_nav_list_item {
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+    .footer_nav_list_item:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.dangKy {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    padding: 11px 24px;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    border: 1px solid rgba(26,26,26,.15);
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    cursor: pointer;
+}
+
+    .dangKy:hover {
+        opacity: 0.9;
+    }
+
+
+.footer_body {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 2.5rem 3rem;
+}
+
+.footer_body_column {
+    -webkit-box-flex: 1;
+    flex: 1 1 100%;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box
+}
+
+    .footer_body_column a {
+        color: #fff;
+        display: block;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-decoration: none;
+        opacity: .6;
+        cursor: pointer;
+    }
+
+        .footer_body_column a:hover {
+            opacity: 1;
+        }
+
+.footer_body_column_title {
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+
+
+.footer_logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer_logo_img {
+    width: 36px;
+    height: 36px;
+    margin-right: 1rem;
+}
+
+.footer_logo_text {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+    max-width: 300px;
+    white-space: normal;
+}
+
+.footer_logo_text_cmt {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+    opacity: .6;
+    cursor: pointer;
+}
+
+    .footer_logo_text_cmt:hover {
+        text-decoration: none;
+    }
+
+.footer_button {
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 2px;
+    padding: .6rem;
+    line-height: 1;
+    background: #071b4d;
+}
+
+.footer_flag_img {
+    height: 20px;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.footer_nav_text {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    opacity: .6;
+}
+.footer_nav_text:hover{
+    color:#fff;
+    text-decoration:none;
+    opacity:1;
+}
+.border {
+    border: 1px solid rgba(255,255,255,.25);
+    border-radius: 2px;
+    padding: .6rem;
+    line-height: 1;
+}
+
+.footer_list_a {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.deadbutton {
+    color:#fff; 
+    display: inline-block; 
+    vertical-align: middle;
+    opacity: .6;
+}
+.deadbutton:hover{
+    opacity:1;
+}
+.footer_nav_list li:last-child {
+    margin-right: 0px;
+}

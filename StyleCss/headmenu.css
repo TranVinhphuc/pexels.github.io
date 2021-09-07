@@ -1,0 +1,216 @@
+﻿
+
+.head {
+    display: flex;
+    width: 100%;
+    background-color: #232a34;
+    position: fixed;
+    align-items: center;
+    padding: 0 1.15rem;
+    box-sizing: border-box;
+    min-height: 66px;
+    z-index: 30;
+}
+.pointer {
+    left: auto;
+    right: 11px;
+    top: -4.5px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 2px;
+    transform: rotate( 45deg );
+    box-shadow: -3px -3px 5px rgb(82 95 127 / 4%);
+}
+.head_logo {
+    margin-right: 2.15rem;
+    font-size: 19px;
+    line-height: 1;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.head_logo_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_logo_text {
+    margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+    .head_logo_text:hover {
+        opacity: 0.75;
+        text-decoration: none;
+        color: var(--color-foreground,#fff);
+    }
+
+.head_search {
+    margin-right: 2.15rem;
+    max-width: 750px;
+    width: 100%;
+}
+
+.head_input {
+    display: flex;
+    border: none;
+    border-radius: 6px;
+    background: var(--color-search-bar-background,rgba(255,255,255,0.95));
+}
+
+.head_input_search {
+    font-family: inherit;
+    display: block;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex: 1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: transparent;
+    border: none;
+    color: #1a1a1a;
+    padding: .9rem 1.25rem;
+    width: 0;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px
+}
+
+.head_nav_bar {
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: -2.15rem;
+    color: var(--color-foreground,#fff);
+}
+
+
+.head_nav_item {
+    color: #fff;
+    margin-right: 3.15rem;
+    display: block;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    transition: .1s opacity ease;
+    white-space: nowrap;
+}
+
+    .head_nav_item:hover {
+        text-decoration: none;
+        color: #fff;
+        opacity: 0.75;
+    }
+
+.head_nav_item_button {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    background: var(--color-button-background,#05a081);
+    padding: 1.2rem 2rem;
+    color: var(--color-button-foreground,#fff);
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    font-size: 17px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+    .head_nav_item_button a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.logoimg {
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+}
+
+.clearFix {
+    clear: both
+}
+
+.btn_search {
+    background: transparent;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.icon {
+    font-size: 20px;
+    color: #5e5e5e;
+    width: 25px;
+    height: 20px;
+}
+
+.dropdown-menu {
+    left: -32px;
+}
+
+    .dropdown-menu a {
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 600;
+    }
+.head_dropdown {
+    white-space: nowrap;
+    border: none;
+    background: none;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.dr {
+    margin-left: -45px;
+    outline: none;
+    text-align: left;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 25%);
+    border-radius: 2px;
+    margin-top: 1.6rem;
+}
+
+.dropdown_item {
+    padding: .6rem 1.15rem;
+}
+
+.dropdown-menu li a {
+    color: #5e5e5e;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    padding: .6rem 1.15rem;
+}
+#flash-container {
+    height: 66px;
+}

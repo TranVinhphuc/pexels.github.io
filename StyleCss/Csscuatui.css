@@ -1,0 +1,570 @@
+﻿.underline {
+    position: relative;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+    display: block;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.underline_a {
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 0;
+    letter-spacing: .4px;
+    margin-bottom: 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+    .underline_a:hover {
+        border-bottom: 0.3rem solid;
+        color: #0064f9;
+        text-decoration: none;
+        color: #0064f9;
+        opacity: 1;
+    }
+
+.main {
+    margin: 0rem 6rem;
+}
+
+.main_title {
+    display: grid;
+    grid-template-columns: 1fr 1200px 1fr;
+    grid-gap: 1rem;
+    display: block;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+.main_tag {
+    display: block;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 600;
+    list-style: none;
+    margin-top: 1.25rem;
+    margin-bottom: .75rem;
+    padding: 0;
+    white-space: nowrap;
+    color: #9e9e9e;
+    text-transform: capitalize;
+}
+
+.main_li {
+    display: inline;
+}
+
+.main_tag_text {
+    color: #9e9e9e;
+    transition: .15s all ease;
+    display: inline-block;
+    padding: .8rem 1.25rem;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    margin-right: .25rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .main_tag_text:hover {
+        text-decoration: none;
+        color: #9e9e9e;
+        background-color: #eaeaea;
+    }
+
+.discover {
+    margin-top: 5rem;
+}
+
+.discover_a {
+    color: #1a1a1a;
+    padding: .8rem;
+    transition: .15s all ease;
+    display: block;
+    width: 100%;
+    padding-bottom: .75rem;
+    border-radius: 14px;
+    background: #fff;
+    text-decoration: none;
+    min-height: 150px;
+}
+
+    .discover_a:hover {
+        text-decoration: none;
+        color: #1a1a1a;
+        background-color: #eaeaea;
+    }
+
+.discover_main-images {
+    position: relative;
+    padding-bottom: 65%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: .15rem;
+}
+
+    .discover_main-images img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+.discover_sub-images {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: .15rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.discover_sub-images_image {
+    position: relative;
+    padding-bottom: 72%;
+}
+
+    .discover_sub-images_image img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+.row img {
+    width: 100%;
+}
+
+.col-md-4 {
+    border-radius: 10px;
+    width: 33.33333333%;
+    padding: 20px 10px;
+}
+
+.discover_text {
+    display: flex;
+    justify-content: space-between;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: .75rem;
+}
+
+.discover_title {
+    display: block;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 1rem;
+}
+
+.discover_content {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
+    color: #5e5e5e;
+    margin-top: .25rem;
+}
+
+.discover_icon {
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
+    margin-right: .3rem;
+    fill: #5e5e5e;
+}
+
+.col-md-2 {
+    padding: 20px 10px;
+}
+
+.discover_color {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .15rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.discover_color_image {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.discover_color_text {
+    display: block;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.col-md-6 {
+    padding: 20px 10px;
+}
+
+.discover_challenges {
+    color: #1a1a1a;
+    transition: .15s all ease;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.25rem;
+    padding: 1.75rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    text-decoration: none;
+}
+
+    .discover_challenges:hover {
+        background-color: #eaeaea;
+        color: #1a1a1a;
+        text-decoration: none
+    }
+
+.discover_challenges_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discover_challenges_content_about {
+}
+
+.discover_challenges_content_pretitle {
+    display: block;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
+.discover_challenges_content_title {
+    display: block;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.discover_challenges_brand {
+    display: flex;
+    align-items: center;
+}
+
+    .discover_challenges_brand img {
+        width: 45px;
+        height: 45px;
+        margin-right: .5rem;
+        border-radius: 50%;
+    }
+
+.discover_strong {
+    display: block;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.discover_challenges img {
+    border-radius: 50%;
+}
+
+.col-md-3 {
+    padding: 20px 10px;
+}
+
+.discover_hero {
+    padding: .8rem;
+    transition: .15s all ease;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 1.25rem;
+    border-radius: 14px;
+}
+
+    .discover_hero:hover {
+        text-decoration: none;
+        background-color: #eaeaea;
+    }
+
+.discover_hero_image {
+    position: relative;
+    margin-bottom: 1rem;
+    min-height: 100px;
+}
+
+.discover_hero_image_background {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.discover_hero_image_avt {
+    position: absolute;
+    bottom: -10px;
+    left: 38%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.discover_hero_text {
+    text-align: center;
+}
+
+.discover_hero_text_title {
+    color: #1a1a1a;
+    display: block;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+
+.discover_hero_text_description {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    margin: 0;
+}
+
+.page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/anhnen.png');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.vungTren img {
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.khung {
+    border-radius: 7px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    width: 450px;
+    height: 580px;
+    padding: 20px 20px 20px;
+}
+
+.ulli {
+    list-style: none;
+    display: inline-block;
+}
+
+    .ulli a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+.phai {
+    float: right;
+}
+
+.ClearFix {
+    clear: both
+}
+
+.vungTren ul li a {
+    list-style: none;
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.nutJoin {
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: rgba(26,26,26,.15);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+    padding: 1rem 1.5rem;
+    margin-left: 10px;
+    margin-right: 15px;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .nutJoin:hover {
+        background-color: #f3f1f1;
+    }
+
+.vungLogin h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.buttonfb {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4267b2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+    .buttonfb:hover {
+        background-color: #3c6ac5;
+    }
+
+.buttonap {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #2e2e2e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+    .buttonap:hover {
+        background-color: #383838;
+    }
+
+.iconsign {
+    float: left;
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.vungLogin button img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.or {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input {
+    width: 95%;
+    border: 1px solid #d3d3d3;
+    font-size: 16px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.nutLogin {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #05a081;
+    color: #fff;
+    align-items: center;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+    .nutLogin a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nutLogin:hover {
+        background-color: #18c19f;
+    }
+
+.chuDuoi {
+    display: block;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-align: center;
+    color: #5e5e5e;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+.vungDuoi {
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+    .vungDuoi ul li {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 0px;
+        color: #fff;
+        display: inline;
+        text-decoration: none;
+        white-space: nowrap;
+        overflow-y: auto;
+        cursor: pointer;
+        margin-right: 2rem;
+        margin-left: -1rem;
+    }
+
+        .vungDuoi ul li a {
+            color: #fff;
+        }

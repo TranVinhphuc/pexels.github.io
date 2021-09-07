@@ -1,0 +1,138 @@
+﻿body {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+}
+
+.menu {
+    padding-top: 70px;
+    display: block;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu_item {
+    color: #0064f9;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 0;
+    letter-spacing: .4px;
+    margin-bottom: 0;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+
+.chuPhanTren {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    max-width: 100%;
+    z-index: 2;
+}
+
+.phanTren h1 {
+    display: block;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: 50px;
+}
+
+.phanTren h3 {
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.underline {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+    display: block;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.underline_a {
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 0;
+    letter-spacing: .4px;
+    margin-bottom: 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+    .underline_a:hover {
+        border-bottom: 0.3rem solid;
+        color: #0064f9;
+        text-decoration: none;
+        color: #0064f9;
+        opacity: 1;
+    }
+
+.phanNoiDung {
+    padding-bottom: 40px;
+    padding-top: 4em;
+    width: 710px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+    .phanNoiDung h2 {
+        margin-top: 0px;
+        margin-bottom: .5em;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+
+    .phanNoiDung img {
+        margin-top: 60px;
+        overflow: hidden
+    }
+
+    .phanNoiDung p {
+        line-height: 1.6;
+        margin: 0 0 10px;
+    }
+
+    .phanNoiDung a {
+        color: inherit;
+    }
+
+.btn--wide {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin: 25px 0px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #071b4d;
+    border-color: #030b1e
+}
+
+    .btn--wide a {
+        font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+        text-decoration: none;
+        color: #fff;
+    }

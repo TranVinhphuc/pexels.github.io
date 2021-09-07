@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleCss/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="StyleCss/Csscuatui.css" rel="stylesheet" />
+    <link href="StyleCss/headmenu.css" rel="stylesheet" />
+
+    <style type="text/css">
+        body {
+            font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="head_logo">
+            <div class="head_logo_img">
+                <a href="Pixels.html"><img class="logoimg" src="Images/logo.png" alt="Pexels" /></a>
+            </div>
+            <a class="head_logo_text" href="https://www.pexels.com/vi-vn/" target="_blank">Pexels</a>
+        </div>
+        <div class="head_search">
+            <div class="head_input">
+                <input type="text" class="head_input_search " placeholder="Tìm kiếm ảnh miễn phí" name="search" />
+                <button class="btn_search"><i class="fa icon fa-search"></i></button>
+            </div>
+        </div>
+        <ul class="head_nav_bar">
+            <li class="head_nav_item">
+                <div class="dropdown">
+                    <button style="opacity:0.75" class="head_dropdown head_sub" type="button" data-toggle="dropdown">
+                        Khám phá
+                    </button>
+                    <ul class="dropdown-menu dr">
+                        <div style=" right: 30.5px;" class="pointer"></div>
+                        <li><a class="dropdown_item" href="#">Khám phá ảnh</a></li>
+                        <li><a class="dropdown_item" href="#">Tìm kiếm phổ biến</a></li>
+                        <li><a class="dropdown_item" href="#">Bảng xếp hạng</a></li>
+                        <li><a class="dropdown_item" href="#">Thử thách</a></li>
+                        <li><a class="dropdown_item" href="#">Video miễn phí</a></li>
+                        <li><a class="dropdown_item" href="#">Pexels Blog</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="head_nav_item" href="About.html" target="_blank">Giấy phép</a></li>
+            <li><a class="head_nav_item" href="Sign.html" target="_blank">Tải lên</a></li>
+            <li class="head_nav_item">
+                <div class="dropdown">
+                    <button class="head_dropdown main_sub" type="button" data-toggle="dropdown">
+                        •••
+                    </button>
+                    <ul class="dropdown-menu dr" style=" width: 300px; margin-left: -240px;"">
+                        <div style=" right:5px;" class="pointer"></div>
+                        <li><a class="dropdown_item" href="#">Đăng nhập </a></li>
+                        <li><a class="dropdown_item" href="#">Tham gia</a></li>
+                        <li><a class="dropdown_item" href="#">Thay đổi ngôn ngữ<img style="width:32px" src="Images/coVN.png" /></a></li>
+                        <li><a class="dropdown_item" href="#">API videos & ảnh</a></li>
+                        <li><a class="dropdown_item" href="#">Ứng dụng và phần bổ trợ</a></li>
+                        <li><a class="dropdown_item" href="#">Câu hỏi thường gặp</a></li>
+                        <li><a class="dropdown_item" href="#">Quan hệ đối tác</a></li>
+                        <li><a class="dropdown_item" href="#">Ấn hiệu và điều khoản</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="head_nav_item"><button class="head_nav_item_button"><a href="Sign.html">Tham gia</a></button></li>
+        </ul>
+        <div class="clearFix"></div>
+    </div>
+    <div id="flash-container"></div>
+    <div class="underline">
+        <a class="underline_a" href="Index.html" target="_blank">Trang chủ</a>
+        <a class="underline_a" href="#" style="color: #0064f9; border-bottom: 0.3rem solid; color: #0064f9; ">Khám phá</a>
+        <a class="underline_a" href="#">Video</a>
+        <a class="underline_a" href="#">Bảng xếp hạng</a>
+        <a class="underline_a" href="#">Thử thách</a>
+    </div>
+    <div class="main">
+        <div class="discover">
+            <h3 class="main_title">Bộ sưu tập phổ biến</h3>
+            <div>
+                <ul class="main_tag">
+                    <li class="main_li"><a class="main_tag_text">Canada</a></li>
+                    <li class="main_li"><a class="main_tag_text">Ủng hộ</a></li>
+                    <li class="main_li"><a class="main_tag_text">Hồ</a></li>
+                    <li class="main_li"><a class="main_tag_text">Mùa đông</a></li>
+                    <li class="main_li"><a class="main_tag_text">E-mail</a></li>
+                    <li class="main_li"><a class="main_tag_text">Màu vàng</a></li>
+                    <li class="main_li"><a class="main_tag_text">Ngày lao động</a></li>
+                    <li class="main_li"><a class="main_tag_text">Cafe</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="discover_a" href="ProductDetail.html" target="_blank">
+                            <div class="discover_main-images">
+                                <img src="Images/ListofProducts/a11.jpeg" />
+                            </div>
+                            <div class="discover_sub-images">
+                                <div class="discover_sub-images_image">
+                                    <img src="Images/ListofProducts/a12.jpeg" />
+                                </div>
+                                <img src="Images/ListofProducts/a13.jpeg" />
+                                <div>
+                                    <img src="Images/ListofProducts/a14.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a15.jpeg" />
+                                </div>
+                            </div>
+                            <div class="discover_text">
+                                <div class="discover_title">
+                                    Back To School Month
+                                </div>
+                                <div class="discover_content">
+                                    <i class="fa discover_icon fa-image"></i>
+                                    <span>137</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="discover_a" href="#">
+                            <div class="discover_main-images">
+
+                                <img src="Images/ListofProducts/a06.jpeg" />
+                            </div>
+                            <div class="discover_sub-images">
+                                <div class="discover_sub-images_image">
+                                    <img src="Images/ListofProducts/a07.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a08.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a09.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a10.jpeg" />
+                                </div>
+                            </div>
+                            <div class="discover_text">
+                                <div class="discover_title">
+                                    Women's Equality Day
+                                </div>
+                                <div class="discover_content">
+                                    <i class="fa discover_icon fa-image"></i>
+                                    <span>75</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="discover_a" href="#">
+                            <div class="discover_main-images">
+                                <img src="Images/ListofProducts/a01.jpeg" />
+                            </div>
+                            <div class="discover_sub-images">
+                                <div class="discover_sub-images_image">
+                                    <img src="Images/ListofProducts/a02.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a03.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a04.jpeg" />
+                                </div>
+                                <div>
+                                    <img src="Images/ListofProducts/a05.jpeg" />
+                                </div>
+                            </div>
+                            <div class="discover_text">
+                                <div class="discover_title">
+                                    Self Care
+                                </div>
+                                <div class="discover_content">
+                                    <i class="fa discover_icon fa-image"></i>
+                                    <span>151</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="discover">
+            <h3 class="main_title">Recommended for You</h3>
+            <div>
+                <ul class="main_tag">
+                    <li class="main_li"><a class="main_tag_text">Motivational quotes</a></li>
+                    <li class="main_li"><a class="main_tag_text">Krishna</a></li>
+                    <li class="main_li"><a class="main_tag_text">Dangerous</a></li>
+                    <li class="main_li"><a class="main_tag_text">Think</a></li>
+                    <li class="main_li"><a class="main_tag_text">Military</a></li>
+                    <li class="main_li"><a class="main_tag_text">American flag</a></li>
+                    <li class="main_li"><a class="main_tag_text">Flower garden</a></li>
+                    <li class="main_li"><a class="main_tag_text">Cryptocurrency</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="discover_a" href="#">
+                        <div class="discover_main-images">
+                            <img src="Images/ListofProducts/a16.jpeg" />
+                        </div>
+                        <div class="discover_sub-images">
+                            <div class="discover_sub-images_image">
+                                <img src="Images/ListofProducts/a17.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a18.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a19.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a20.jpeg" />
+                            </div>
+                        </div>
+                        <div class="discover_text">
+                            <div class="discover_title">
+                                Best Of Wallpapers
+                            </div>
+                            <div class="discover_content">
+                                <i class="fa discover_icon fa-image"></i>
+                                <span>269</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="discover_a" href="#">
+                        <div class="discover_main-images">
+                            <img src="Images/ListofProducts/a21.jpeg" />
+                        </div>
+                        <div class="discover_sub-images">
+                            <div class="discover_sub-images_image">
+                                <img src="Images/ListofProducts/a22.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a23.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a24.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a25.jpeg" />
+                            </div>
+                        </div>
+                        <div class="discover_text">
+                            <div class="discover_title">
+                                Tumblr Wallpapers
+                            </div>
+                            <div class="discover_content">
+                                <i class="fa discover_icon fa-image"></i>
+                                <span>160</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="discover_a" href="#">
+                        <div class="discover_main-images">
+                            <img src="Images/ListofProducts/a27.jpeg" />
+                        </div>
+                        <div class="discover_sub-images">
+                            <div class="discover_sub-images_image">
+                                <img src="Images/ListofProducts/a26.jpeg" />
+                            </div>
+                            <img src="Images/ListofProducts/a28.jpeg" />
+                            <div>
+                                <img src="Images/ListofProducts/a29.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a30.jpeg" />
+                            </div>
+                        </div>
+                        <div class="discover_text">
+                            <div class="discover_title">
+                                Mighty Nature
+                            </div>
+                            <div class="discover_content">
+                                <i class="fa discover_icon fa-image"></i>
+                                <span>45</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="discover">
+            <h3 class="main_title">Khám phá ảnh theo màu sắc</h3>
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="discover_a" href="#">
+                        <div class="discover_color">
+                            <div class="discover_color_image">
+                                <img src="Images/ListofProducts/a31.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a32.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a33.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a34.jpeg" />
+                            </div>
+                        </div>
+                        <h3 class="discover_color_text">Red</h3>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="discover_a" href="#">
+                        <div class="discover_color">
+                            <div class="discover_color_image">
+                                <img src="Images/ListofProducts/a35.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a36.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a37.jpeg" />
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <h3 class="discover_color_text">Green</h3>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="discover_a" href="#">
+                        <div class="discover_color">
+                            <div class="discover_color_image">
+                                <img src="Images/ListofProducts/a39.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a40.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a41.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a42.jpeg" />
+                            </div>
+                        </div>
+                        <h3 class="discover_color_text">Blue</h3>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="discover_a" href="#">
+                        <div class="discover_color">
+                            <div class="discover_color_image">
+                                <img src="Images/ListofProducts/a43.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a44.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a45.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a46.jpeg" />
+                            </div>
+                        </div>
+                        <h3 class="discover_color_text">Yellow</h3>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="discover_a" href="#">
+                        <div class="discover_color">
+                            <div class="discover_color_image">
+                                <img src="Images/ListofProducts/a47.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a48.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a49.jpg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a50.jpeg" />
+                            </div>
+                        </div>
+                        <h3 class="discover_color_text">White</h3>
+                    </a>
+                </div>
+                <div class="col-md-2">
+                    <a class="discover_a" href="#">
+                        <div class="discover_color">
+                            <div class="discover_color_image">
+                                <img src="Images/ListofProducts/a51.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a52.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a53.jpeg" />
+                            </div>
+                            <div>
+                                <img src="Images/ListofProducts/a54.jpeg" />
+                            </div>
+                        </div>
+                        <h3 class="discover_color_text">Black</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="discover">
+                <h3 class="main_title">Tham gia Thử thách ảnh đẹp</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="discover_challenges" href="#">
+                            <div class="discover_challenges_content">
+                                <div class="discover_challenges_content_about">
+                                    <div class="discover_challenges_content_pretitle">
+                                        <span>Đã hết hạn — Xem người chiến thắng</span>
+                                    </div>
+                                    <div class="discover_challenges_content_title">Nostalgia</div>
+                                </div>
+                                <div class="discover_challenges_brand">
+                                    <img src="Images/logo.png" />
+                                    <div>
+                                        Được tổ chức bởi
+                                        <strong class="discover_strong">Pexels</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discover_challenges_content">
+                                <img src="Images/ListofProducts/p01.jpeg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="discover_challenges" href="#">
+                            <div class="discover_challenges_content">
+                                <div class="discover_challenges_content_about">
+                                    <div class="discover_challenges_content_pretitle">
+                                        <span>Đã hết hạn — Xem người chiến thắng</span>
+                                    </div>
+                                    <div class="discover_challenges_content_title">Summer Mood</div>
+                                </div>
+                                <div class="discover_challenges_brand">
+                                    <img src="Images/logo.png" />
+                                    <div>
+                                        Được tổ chức bởi
+                                        <strong class="discover_strong">Pexels</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discover_challenges_content">
+                                <img src="Images/ListofProducts/p02.jpeg" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="discover">
+                <h3 class="main_title">Tham gia Thử thách ảnh đẹp</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="discover_hero" href="#">
+                            <div class="discover_hero_image">
+                                <img class="discover_hero_image_background" src="Images/ListofProducts/p03.jpeg" />
+                                <img class="discover_hero_image_avt " style="width:70px;" src="Images/ListofProducts/p04.jpeg" />
+                            </div>
+                            <div class="discover_hero_text">
+                                <div class="discover_hero_text_title">
+                                    Tobias Bjørkli
+                                </div>
+                                <div class="discover_hero_text_description">
+                                    This photographer from Trømso shoots Norway's fantastical landscapes with a keen eye.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="discover_hero" href="#">
+                            <div class="discover_hero_image">
+                                <img class="discover_hero_image_background" src="Images/ListofProducts/p05.jpeg" />
+                                <img class="discover_hero_image_avt " style="width:70px;" src="Images/ListofProducts/p06.jpeg" />
+                            </div>
+                            <div class="discover_hero_text">
+                                <div class="discover_hero_text_title">
+                                    Wallace Chuck
+                                </div>
+                                <div class="discover_hero_text_description">
+                                    The Brazilian photographer shoots athletes in action.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="discover_hero" href="#">
+                            <div class="discover_hero_image">
+                                <img class="discover_hero_image_background" src="Images/ListofProducts/p07.jpeg" />
+                                <img class="discover_hero_image_avt " style="width:70px;" src="Images/ListofProducts/p08.jpeg" />
+                            </div>
+                            <div class="discover_hero_text">
+                                <div class="discover_hero_text_title">
+                                    Ali Müftüoğulları
+                                </div>
+                                <div class="discover_hero_text_description">
+                                    Discover the sunny street photography of Ali Müftüoğulları, a student living on the Turkish coast.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="discover_hero" href="#">
+                            <div class="discover_hero_image">
+                                <img class="discover_hero_image_background" src="Images/ListofProducts/p09.jpeg" />
+                                <img class="discover_hero_image_avt " style="width:70px;" src="Images/ListofProducts/p10.jpeg" />
+                            </div>
+                            <div class="discover_hero_text">
+                                <div class="discover_hero_text_title">
+                                    Leah Kelley
+                                </div>
+                                <div class="discover_hero_text_description">
+                                    Portrait and wedding photographer Leah Kelley shares her advice on shooting authentic photos of people.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

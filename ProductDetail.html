@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StyleCss/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="StyleCss/headmenu.css" rel="stylesheet" />
+    <link href="StyleCss/ProductDetail.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="head_logo">
+            <div class="head_logo_img">
+                <a href="Index.html"><img class="logoimg" src="Images/logo.png" alt="Pexels" /></a>
+            </div>
+            <a class="head_logo_text" href="Index.html" target="_blank">Pexels</a>
+        </div>
+        <div class="head_search">
+            <div class="head_input">
+                <input type="text" class="head_input_search " placeholder="Tìm kiếm ảnh miễn phí" name="search" />
+                <button class="btn_search"><i class="fa icon fa-search"></i></button>
+            </div>
+        </div>
+        <ul class="head_nav_bar">
+            <li class="head_nav_item">
+                <div class="dropdown">
+                    <button class="head_dropdown head_sub" type="button" data-toggle="dropdown">
+                        Khám phá
+                    </button>
+                    <ul class="dropdown-menu dr">
+                        <div style=" right: 30.5px;" class="pointer"></div>
+                        <li><a class="dropdown_item" href="#">Khám phá ảnh</a></li>
+                        <li><a class="dropdown_item" href="#">Tìm kiếm phổ biến</a></li>
+                        <li><a class="dropdown_item" href="#">Bảng xếp hạng</a></li>
+                        <li><a class="dropdown_item" href="#">Thử thách</a></li>
+                        <li><a class="dropdown_item" href="#">Video miễn phí</a></li>
+                        <li><a class="dropdown_item" href="#">Pexels Blog</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="head_nav_item" href="AboutUs.html" target="_blank">Giấy phép</a></li>
+            <li><a class="head_nav_item" href="Sign.html" target="_blank">Tải lên</a></li>
+            <li class="head_nav_item">
+                <div class="dropdown">
+                    <button class="head_dropdown main_sub" type="button" data-toggle="dropdown">
+                        •••
+                    </button>
+                    <ul class="dropdown-menu dr" style=" width: 300px; margin-left: -240px;">
+                        <div style=" right:5px;" class="pointer"></div>
+                        <li><a class="dropdown_item" href="#">Đăng nhập </a></li>
+                        <li><a class="dropdown_item" href="#">Tham gia</a></li>
+                        <li><a class="dropdown_item" href="#">Thay đổi ngôn ngữ<img style="width:32px" src="Images/coVN.png" /></a></li>
+                        <li><a class="dropdown_item" href="#">API videos & ảnh</a></li>
+                        <li><a class="dropdown_item" href="#">Ứng dụng và phần bổ trợ</a></li>
+                        <li><a class="dropdown_item" href="#">Câu hỏi thường gặp</a></li>
+                        <li><a class="dropdown_item" href="#">Quan hệ đối tác</a></li>
+                        <li><a class="dropdown_item" href="#">Ấn hiệu và điều khoản</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="head_nav_item"><button class="head_nav_item_button"><a href="Sign.html">Tham gia</a></button></li>
+        </ul>
+    </div>
+    <div id="flash-container"></div>
+    <div class="container">
+        <div class="title-centered">
+            <h1>Back To School Month</h1>
+            <p>August 8th</p>
+            <p>
+                107 ảnh và 30 video được sưu tầm bởi
+                <a>
+                    <img src="Images/lisa.jpeg" width="24" height="24" />
+                    <span>Lisa</span>
+                </a>
+            </p>
+        </div>
+        <div class="level">
+            <div class="level_leftphoto">
+                <div class="level_item">
+                    <div class="level_item">
+                        <a class="mini_profile">
+                            <div class="mini_profile_img">
+                                <img style="border-radius:50%" src="Images/lisa.jpeg" />
+                            </div>
+                            <div class="mini_profile_text">
+                                <h3 class="mini_profile_text_title">Lisa</h3>
+                                <div class="mini_profile_text_sub">
+                                    <span style=" white-space: nowrap;">5,4 Nghìn người theo dõi</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="level_item">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn_compact ">Theo dõi</button>
+                            <button type="button" class="btn btn_compact">Quyên góp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="level_right">
+                <div class="level_item">
+                    <div>
+                        <button type="button" class="btn btn-white ">
+                            <i class="fa level_icon fa-heart-o" aria-hidden="true"></i>
+                            <span>16,7N lượt thích</span>
+                        </button>
+                        <button type="button" class="btn btn-white">
+                            <i class="fa level_icon fa-angle-double-down" aria-hidden="true"></i>
+                            <span>Sưu tầm</span>
+                        </button>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-green">
+                                Tải xuống miễn phí
+                                <div class="dropdown">
+                                    <button style=" width: 40px;" class="btn btn-green dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <div class="pointer">
+                                        </div>
+                                        <h3 class="h3">Chọn kích thước:</h3>
+                                        <li class="caret_list_li">
+                                            <input type="radio" id="html" name="fav_language" value="HTML">
+                                            <strong>Ban đầu</strong>
+                                            <span>(2160 x 3840)</span>
+                                        </li>
+                                        <li class="caret_list_li">
+                                            <input type="radio" id="html" name="fav_language" value="HTML">
+                                            <strong>Trung bình</strong>
+                                            <span>(1280 x 2275)</span>
+                                        </li>
+                                        <li class="caret_list_li">
+                                            <input type="radio" id="html" name="fav_language" value="HTML">
+                                            <strong>Nhỏ</strong>
+                                            <span>(640 x 1137)</span>
+
+                                        </li>
+                                        <li class="caret_list_li">
+                                            <input type="radio" id="html" name="fav_language" value="HTML">
+                                            <label for="html">Tùy chỉnh kích thước</label><br>
+                                            <div class="caret_input">
+                                                <input class="caret_input_text" type="text" value="Chiều rộng" />
+                                                <input class="caret_input_text" type="text" value="Chiều cao" />
+                                            </div>
+
+                                        </li>
+                                        <li class="caret_list_li">
+                                            <button style="width:100%" type="button" class="btn btn-green">Tải xuống miễn phí</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <video controls="controls" autoplay>
+                    <source src="Videos/video03.mp4" type="video/mp4" />
+                </video>
+                <img src="Images/ProductDetail/d01.jpeg" />
+                <img src="Images/ProductDetail/d02.jpeg" />
+                <img src="Images/ProductDetail/d03.jpeg" />
+                <img style=" height: 313px;" src="Images/ProductDetail/d04.jpeg" />
+                <div class="related"></div>
+            </div>
+            <div class="col-md-4">
+                <img src="Images/ProductDetail/d05.jpeg" />
+                <img src="Images/ProductDetail/d06.jpeg" />
+                <img src="Images/ProductDetail/d07.jpeg" />
+                <img src="Images/ProductDetail/d08.jpeg" />
+                <img style="height: 390px;" src="Images/ProductDetail/d09.jpeg" />
+                <div class="related"></div>
+            </div>
+            <div class="col-md-4">
+                <img src="Images/ProductDetail/d10.jpeg" />
+                <img src="Images/ProductDetail/d11.jpeg" />
+                <img src="Images/ProductDetail/d12.jpeg" />
+                <img src="Images/ProductDetail/d13.jpeg" />
+                <div class="related"></div>
+            </div>
+
+        </div>
+        <div>
+
+            <button style=" margin: 0px 20px; width:97%" class="home_button"><a href="ListofProducts.html" target="_blank">Tải Thêm</a></button>
+        </div>
+        <section class="section_photo">
+            <div class="section_title">
+                <div class="level">
+                    <div class="level_leftphoto">
+                        <div class="level_item">
+                            <h2 class="h2">Thẻ liên quan</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_tag">
+                <ul class="section_ul">
+                    <li>Áng sáng mặt trời</li>
+                    <li>bộ phận cơ thể</li>
+                    <li>buổi sáng</li>
+                    <li>cà phê</li>
+                    <li>cà phê giải lao</li>
+                    <li>chăm học</li>
+                    <li>chuẩn bị</li>
+                    <li>chuyến đi</li>
+                    <li>đò uống</li>
+                    <li>hóa học</li>
+                    <li>hương thơm</li>
+                    <li>mùa hè</li>
+                    <li>khai sáng</li>
+                    <li>kì nghỉ</li>
+                    <li>độ lượng</li>
+                    <li>rớt môn</li>
+                    <li>học lại</li>
+                    <li>khóc huhu</li>
+                </ul>
+                <div class="overlay"></div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
